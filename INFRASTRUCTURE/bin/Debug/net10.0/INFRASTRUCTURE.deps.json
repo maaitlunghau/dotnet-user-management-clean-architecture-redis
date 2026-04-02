@@ -579,7 +579,8 @@
       },
       "APPLICATION/1.0.0": {
         "dependencies": {
-          "DOMAIN": "1.0.0"
+          "DOMAIN": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "runtime": {
           "APPLICATION.dll": {
