@@ -2,8 +2,6 @@ using APPLICATION;
 using APPLICATION.Interfaces.Services;
 using APPLICATION.Services;
 using INFRASTRUCTURE;
-using INFRASTRUCTURE.Caching;
-using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,10 +11,6 @@ builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-// register Redis
-builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("localhost:6379"));
-builder.Services.AddScoped<ICacheService, RedisCacheService>();
 
 // register Decorator (Standard):
 builder.Services.AddScoped<UserService>();
