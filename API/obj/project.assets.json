@@ -36,6 +36,42 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "APPLICATION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "DOMAIN": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/APPLICATION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APPLICATION.dll": {}
+        }
+      },
+      "DOMAIN/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/DOMAIN.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DOMAIN.dll": {}
+        }
+      },
+      "INFRASTRUCTURE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "APPLICATION": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/INFRASTRUCTURE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/INFRASTRUCTURE.dll": {}
+        }
       }
     }
   },
@@ -75,10 +111,27 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "APPLICATION/1.0.0": {
+      "type": "project",
+      "path": "../APPLICATION/APPLICATION.csproj",
+      "msbuildProject": "../APPLICATION/APPLICATION.csproj"
+    },
+    "DOMAIN/1.0.0": {
+      "type": "project",
+      "path": "../DOMAIN/DOMAIN.csproj",
+      "msbuildProject": "../DOMAIN/DOMAIN.csproj"
+    },
+    "INFRASTRUCTURE/1.0.0": {
+      "type": "project",
+      "path": "../INFRASTRUCTURE/INFRASTRUCTURE.csproj",
+      "msbuildProject": "../INFRASTRUCTURE/INFRASTRUCTURE.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "APPLICATION >= 1.0.0",
+      "INFRASTRUCTURE >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.1"
     ]
   },
@@ -106,7 +159,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/APPLICATION.csproj": {
+              "projectPath": "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/APPLICATION.csproj"
+            },
+            "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/INFRASTRUCTURE/INFRASTRUCTURE.csproj": {
+              "projectPath": "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/INFRASTRUCTURE/INFRASTRUCTURE.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
