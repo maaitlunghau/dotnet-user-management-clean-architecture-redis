@@ -3,7 +3,7 @@ using APPLICATION.Interfaces.Services;
 
 namespace APPLICATION.Services;
 
-public class CachedUserService
+public class CachedUserService : IUserService
 {
     private readonly IUserService _decorated;
     private readonly ICacheService _cacheService;
