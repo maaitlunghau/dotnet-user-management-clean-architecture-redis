@@ -1,0 +1,12 @@
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/bin/Debug/net10.0/DOMAIN.deps.json
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/bin/Debug/net10.0/DOMAIN.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/bin/Debug/net10.0/DOMAIN.pdb
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.AssemblyInfoInputs.cache
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.AssemblyInfo.cs
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.csproj.CoreCompileInputs.cache
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.sourcelink.json
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/refint/DOMAIN.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/DOMAIN.pdb
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/obj/Debug/net10.0/ref/DOMAIN.dll

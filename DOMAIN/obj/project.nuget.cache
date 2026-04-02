@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6NObf5On67M=",
+  "dgSpecHash": "xU1tkk0zvIc=",
   "success": true,
   "projectFilePath": "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/DOMAIN/DOMAIN.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/maaitlunghau/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/maaitlunghau/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
