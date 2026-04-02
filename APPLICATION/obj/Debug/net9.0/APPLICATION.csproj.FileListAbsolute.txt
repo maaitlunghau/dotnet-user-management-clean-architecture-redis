@@ -1,0 +1,16 @@
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/bin/Debug/net9.0/APPLICATION.deps.json
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/bin/Debug/net9.0/APPLICATION.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/bin/Debug/net9.0/APPLICATION.pdb
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/bin/Debug/net9.0/DOMAIN.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/bin/Debug/net9.0/DOMAIN.pdb
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.csproj.AssemblyReference.cache
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.AssemblyInfoInputs.cache
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.AssemblyInfo.cs
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.csproj.CoreCompileInputs.cache
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.sourcelink.json
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICAT.4F738479.Up2Date
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/refint/APPLICATION.dll
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/APPLICATION.pdb
+/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/obj/Debug/net9.0/ref/APPLICATION.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l6IjP4Ei/H8=",
+  "dgSpecHash": "AzCgzmhlZGQ=",
   "success": true,
   "projectFilePath": "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/API/API.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,9 @@
     "/Users/maaitlunghau/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/mysqlconnector/2.4.0/mysqlconnector.2.4.0.nupkg.sha512",
+    "/Users/maaitlunghau/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/pomelo.entityframeworkcore.mysql/9.0.0/pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
+    "/Users/maaitlunghau/.nuget/packages/stackexchange.redis/2.12.14/stackexchange.redis.2.12.14.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/swashbuckle.aspnetcore/10.1.7/swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.7/swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.7/swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
@@ -35,7 +37,8 @@
     "/Users/maaitlunghau/.nuget/packages/system.composition.convention/7.0.0/system.composition.convention.7.0.0.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg.sha512",
     "/Users/maaitlunghau/.nuget/packages/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg.sha512",
-    "/Users/maaitlunghau/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512"
+    "/Users/maaitlunghau/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
+    "/Users/maaitlunghau/.nuget/packages/system.io.hashing/10.0.2/system.io.hashing.10.0.2.nupkg.sha512"
   ],
   "logs": []
 }
