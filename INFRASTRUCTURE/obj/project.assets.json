@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "APPLICATION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "DOMAIN": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/APPLICATION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APPLICATION.dll": {}
+        }
+      },
+      "DOMAIN/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/DOMAIN.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DOMAIN.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "APPLICATION/1.0.0": {
+      "type": "project",
+      "path": "../APPLICATION/APPLICATION.csproj",
+      "msbuildProject": "../APPLICATION/APPLICATION.csproj"
+    },
+    "DOMAIN/1.0.0": {
+      "type": "project",
+      "path": "../DOMAIN/DOMAIN.csproj",
+      "msbuildProject": "../DOMAIN/DOMAIN.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "APPLICATION >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/maaitlunghau/.nuget/packages/": {}
@@ -31,7 +68,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/APPLICATION.csproj": {
+              "projectPath": "/Users/maaitlunghau/Documents/SelfStudy/dotnet-user-management-clean-architecture-redis/APPLICATION/APPLICATION.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
